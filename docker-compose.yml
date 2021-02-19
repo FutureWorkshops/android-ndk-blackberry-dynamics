@@ -1,0 +1,6 @@
+version: "3.1"
+services:
+  app:
+    container_name: android-ndk-blackberry-dynamics
+    image: android-ndk-blackberry-dynamics
+    build: .
