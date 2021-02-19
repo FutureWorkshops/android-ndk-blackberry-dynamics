@@ -1,1 +1,3 @@
-Download the SDK from [BlackBerry's oficial website](https://developers.blackberry.com/us/en/products/blackberry-dynamics/android.html) and save it locally in a file named `bb_dynamics.zip`. The Dockerfile will use [Bitrise's Android NDK](https://github.com/bitrise-io/android-ndk) image as a base and extract the Dynamics SDK into the path `$ANDROID_HOME/extras/blackberry`
+The Dockerfile will use [Bitrise's Android NDK](https://github.com/bitrise-io/android-ndk) image as a base and extract the Dynamics SDK into the path `$ANDROID_HOME/extras/blackberry`
+
+Current BlackBerry Dynamics version: 9_0_0_72
