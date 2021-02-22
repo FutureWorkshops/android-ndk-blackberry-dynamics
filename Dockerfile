@@ -1,6 +1,6 @@
 FROM quay.io/bitriseio/android-ndk:latest
 
-ENV BB_DYNAMICS_VERSION 9_0_0_72
+ARG BB_DYNAMICS_VERSION=9_0_0_72
 
 RUN mkdir $ANDROID_HOME/extras/blackberry
 RUN mkdir $ANDROID_HOME/extras/blackberry/dynamics_sdk
